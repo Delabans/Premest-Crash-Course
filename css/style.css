@@ -1,0 +1,32 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: brown;
+  font-size: medium;
+  font: weight 300px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.header {
+  background-color: orange;
+}
+.body {
+  background-color: brown;
+  padding: 20px;
+  border: 30px solid lawngreen;
+}
+
+h1:hover {
+  color: blue;
+  font-size: larger;
+
+}
+
+@media  (max-width: 500px) {
+  body {
+    background-color: brown;
+  }

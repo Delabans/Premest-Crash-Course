@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua; (#012345);
+  margin: 20px;
+  /*border-radius: 100px; */
+  box-shadow: 5px 5px 20px 20px rgba(0,0,0,0.5)
+}
+.container {
+    dislay: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
